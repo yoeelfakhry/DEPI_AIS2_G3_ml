@@ -1,13 +1,13 @@
 # Boston Housing Price Prediction – Task 1
 
 ## Overview
-This task implements a machine learning system to predict housing prices in Boston
-using a Decision Tree Regression model. The solution includes data preprocessing,
-model training, and an interactive Streamlit user interface.
+This task implements a machine learning system to predict housing prices in Boston 
+using a Decision Tree Regression model. The solution includes data preprocessing, 
+model training, and an interactive **Tkinter** user interface.
 
 ---
 
-It have two pages 
+The application features two main pages.
 
 ### First Page
 ## Home
@@ -34,12 +34,3 @@ After entering the required values, the model generates an estimated house price
   - RM (Average number of rooms)
   - LSTAT (Lower status population %)
   - PTRATIO (Pupil–teacher ratio)
-
----
-
-## How to Run
-
-From the project root run:
-
-```bash
-streamlit run src/ML/tasks/task_1/house_prediction_ui.py
